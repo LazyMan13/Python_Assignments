@@ -1,0 +1,11 @@
+print("Create a character:")
+print("What is your character's name?", end=' ')
+name = input()
+print("What is your character's attack?", end=' ')
+atk = input()
+print("What is your character's defense?", end=' ')
+defense = input()
+print("What is your character's endurance?", end=' ')
+endurance = input()
+
+print(f"Your character is named {name} and has {atk} attack, {defense} defense, and has {endurance} endurance.")
